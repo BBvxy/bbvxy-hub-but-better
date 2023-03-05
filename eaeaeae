@@ -231,7 +231,7 @@ end
 })
 
 Tab:AddButton({
-	Name = "CamLock (not resolved) (rejoin to switch from not res to res)",
+	Name = "CamLock (50 PING = NO MISS)",
 	Callback = function()
       		local Settings = {
     rewrittenmain = {
