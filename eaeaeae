@@ -713,6 +713,12 @@ getgenv().Prediction = 0.157
   	end    
 })
 
+local Tab = Window:MakeTab({
+	Name = "Speed",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
 
 
 local Section = Tab:AddSection({
@@ -720,7 +726,7 @@ local Section = Tab:AddSection({
 })
 
 Tab:AddButton({
-	Name = "Fake Macro",
+	Name = "Fake Macro (M)",
 	Callback = function()
       		    -- the key 2 speed is "m"
 plr = game:GetService('Players').LocalPlayer
