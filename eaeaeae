@@ -718,13 +718,13 @@ local Section = Tab:AddSection({
 })
 
 Tab:AddButton({
-	Name = "Silent aim (E to toggle)",
+	Name = "Silent aim (T to toggle)",
 	Callback = function()
       		getgenv().Prediction =  (  .1239592  )   -- [ PREDICTION: Lower Prediction: Lower Ping | Higher Prediction: Higher Ping  ]
  
 getgenv().FOV =  (  150  )   -- [ FOV RADIUS: Increases Or Decreases FOV Radius ]
  
-getgenv().AimKey =  (  "e"  )  -- [ TOGGLE KEY: Toggles Silent Aim On And Off ]
+getgenv().AimKey =  (  "t"  )  -- [ TOGGLE KEY: Toggles Silent Aim On And Off ]
  
 getgenv().Notifier = true
  
@@ -768,7 +768,7 @@ FOV_CIRCLE.Radius = getgenv().FOV
 FOV_CIRCLE.Position = Vector2.new(Camera.ViewportSize.X / 2, Camera.ViewportSize.Y / 2)
  
 local Options = {
-	Torso = "HumanoidRootPart";
+	Torso = "UpperTorso";
 	Head = "Head";
 }
  
@@ -864,7 +864,7 @@ Tab:AddButton({
  
 getgenv().FOV =  (  150  )   -- [ FOV RADIUS: Increases Or Decreases FOV Radius ]
  
-getgenv().AimKey =  (  "e"  )  -- [ TOGGLE KEY: Toggles Silent Aim On And Off ]
+getgenv().AimKey =  (  "t"  )  -- [ TOGGLE KEY: Toggles Silent Aim On And Off ]
  
 getgenv().Notifier = true
  
@@ -908,7 +908,7 @@ FOV_CIRCLE.Radius = getgenv().FOV
 FOV_CIRCLE.Position = Vector2.new(Camera.ViewportSize.X / 2, Camera.ViewportSize.Y / 2)
  
 local Options = {
-	Torso = "HumanoidRootPart";
+	Torso = "UpperTorso";
 	Head = "Head";
 }
  
